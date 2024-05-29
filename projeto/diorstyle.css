@@ -24,22 +24,47 @@ h1 > img{
     height: 30px;
 }
 
-div > img{
+video{
     display: block;
     margin: auto;
     margin-top: 70px;
+    width: 450px;
+    height: 250px;
 }
 
-div#base > img{
-    width: 250px;
-    height: 330px;
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: "Urbanist", sans-serif;
+
 }
 
-div#light > img{
-    width: 250px;
-    height: 330px;
+p#light{
+    margin-top: 20px;
 }
 
-div#light > img{
-    margin-top: 30px;
+div > img{
+    display: flex;
+    margin: auto;
+    width: 91%;
+    margin-top: 10px;
+}
+
+#bases{
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.setas{
+    display: block;
+    margin: auto;
+}
+
+span{
+    display: block;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
 }

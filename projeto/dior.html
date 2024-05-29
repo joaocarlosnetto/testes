@@ -4,20 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dior MakeUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="diorstyle.css" media="all">
     <link rel="stylesheet" href="mediaquery-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="imagens/logo.svg" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1><img src="imagens/logo.svg" alt=""></h1>
+        <h1><img src="imagens/logo.svg" alt="" onclick="base()"></h1>
     </header>
     <section>
-        <div id="base">
-            <img src="imagens/base.jpg" alt="">
-        </div>
-        <div id="light">
-            <img src="imagens/light.jpg" alt="">
-        </div>
+            <div>
+                <video src="imagens/video.mp4"  controls autoplay></video>
+            </div>
+
+            <div>
+
+                <p>PRODUTOS</p>
+
+                <img src="imagens/bases.jpg" id="bases" alt="">
+                <img src="imagens/lights.jpg" id="lights" alt="">
+                
+                <div class="setas">
+                    <span onclick="seta()" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    <span onclick="back()" class="material-symbols-outlined">
+                            arrow_back_ios
+                        </span>
+                </div>
+
+                <p>FOREVER GLOW Star Filter</p>
+                <p>FOREVER GLOW Maximizer</p>
+
+             </div>
     </section>
+
+
+    <script src="dior.js"></script>
+
 </body>
 </html>

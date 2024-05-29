@@ -9,7 +9,10 @@
  telas extra grandes, tv: 1201px para mais */
 
  @media screen and (min-width: 481px) and (max-width: 768px) {
-
+    video{
+        width: 91%;
+        height: 60%;
+    }
  }
 
  @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -22,6 +25,19 @@
     h1 > img{
         width: 120px;
         height: 40px;
+    }
+
+    video{
+        width: 91%;
+        height: 60%;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    div > img{
+        width: 100%;
     }
  }
 
@@ -37,6 +53,19 @@
         width: 120px;
         height: 40px;
     }
+
+    video{
+        width: 80%;
+        height: 60%;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    div > img{
+        width: 100%;
+    }
  }
 
  @media screen and (min-width: 1201px){
@@ -49,5 +78,17 @@
     h1 > img{
         width: 130px;
         height: 50px;
+    }
+    video{
+        width: 80%;
+        height: 60%;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    div > img{
+        width: 100%;
     }
  }
