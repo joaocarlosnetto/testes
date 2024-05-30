@@ -39,6 +39,14 @@
     div > img{
         width: 100%;
     }
+
+    .setas{
+        margin-top: -190px;
+    }
+
+    #products{
+        margin-top: 160px;
+    }
  }
 
  @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -65,6 +73,15 @@
 
     div > img{
         width: 100%;
+    }
+
+    .setas{
+        display: block;
+        margin-top: -270px;
+    }
+
+    #products{
+        margin-top: 250px;
     }
  }
 
