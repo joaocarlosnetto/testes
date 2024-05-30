@@ -11,6 +11,7 @@ function seta(){
     }
     bases.style.transform = '0.3s'
     lights.style.transition = '0.3s'
+
 }
 
 function back(){

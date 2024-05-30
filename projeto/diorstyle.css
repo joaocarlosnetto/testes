@@ -65,12 +65,14 @@ div > img{
 #seta{
     display: block;
     margin: auto;
-    margin-top: -130px;
+    margin-top: -00px;
+    float: right;
 }
 
 #back{
     display: block;
     margin: auto;
+    margin-top: -120px;
 }
 
 #products{

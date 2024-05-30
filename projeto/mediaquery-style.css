@@ -37,15 +37,19 @@
     }
 
     div > img{
-        width: 100%;
+        width: 91%;
     }
+
+    #bases{
+        margin-top: 70px;
+}
 
     .setas{
         margin-top: -190px;
     }
 
     #products{
-        margin-top: 160px;
+        margin-top: 190px;
     }
  }
 
@@ -72,12 +76,17 @@
     }
 
     div > img{
-        width: 100%;
+        width: 91%;
     }
 
     .setas{
         display: block;
         margin-top: -270px;
+    }
+
+    #seta{
+        display: block;
+        margin: 0px;
     }
 
     #products{
@@ -106,6 +115,20 @@
     }
 
     div > img{
-        width: 100%;
+        width: 91%;
+    }
+
+    .setas{
+        display: block;
+        margin-top: -300px;
+    }
+
+    #seta{
+        display: block;
+        margin: 0px;
+    }
+
+    #products{
+        margin-top: 280px;
     }
  }
