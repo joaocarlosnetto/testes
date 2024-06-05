@@ -12,7 +12,7 @@
  @media screen and (min-width: 481px) and (max-width: 768px) {
     video{
         width: 91%;
-        height: 70%;
+        height: 60%;
     }
 
     article{
@@ -39,7 +39,7 @@
 
     video{
         width: 91%;
-        height: 70%;
+        height: 60%;
     }
 
     p{
@@ -48,7 +48,7 @@
 
     article{
         width: 91%;
-        height: 45vh;
+        height: 60%;
     }
 
     article > img{
