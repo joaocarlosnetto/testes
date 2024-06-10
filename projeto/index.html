@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slider{
+            display: block;
+            width: 100vw;
+            height: 100%;
+            position: relative;
+            margin: auto;
+            margin-top: 200px;
+        }
+
+        .list{
+            display: flex;
+            position: absolute;
+            size: cover;
+        }
+
+        .item > img{
+            width: 1000px;
+            height: 100%;
+        }
+
+        div.setas{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+            width: 40px;
+        }
+
+        #seta{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="imagens/bases.jpg" alt=""></div>
+            <div class="item">
+                <img src="imagens/lights.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="setas">
+        <input id="seta" type="button" value=">">
+        <input id="back" type="button" value="<">
+    </div>
+</body>
+</html>

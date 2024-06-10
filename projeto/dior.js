@@ -7,6 +7,7 @@ function back(){
     } else{
         lights.style.display = 'none'
         bases.style.display = 'block'
+
     }
 }
 
